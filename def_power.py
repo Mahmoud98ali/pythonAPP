@@ -8,5 +8,3 @@ def power(num1, num2):
             result = result * num1
     return result
 
-
-print(power(778, -1))
