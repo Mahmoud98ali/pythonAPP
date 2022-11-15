@@ -76,3 +76,52 @@
 # else:
 #     print("i is end")
 # =================================
+# 2D Lists
+
+# no_list = [[1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 3, 5]]
+# print(no_list)
+#
+# for row in no_list:
+#     print(row)
+#     for column in row:
+#         print(column)
+# =======================
+#
+# try:
+#     value = int(input("Enter a number: "))
+#     print(value)
+#     print("Success")
+# except ValueError as error:
+#     print(error)
+#
+# ===========================
+# # read files
+#
+# names_file = open("names","r")
+# # print(names_file.read())
+# # print(names_file.readlines())
+# for names in names_file.readlines():
+#     print(names)
+# names_file.close()
+
+# =============================
+# write files
+# names_file = open("names","w")
+# # names_file.write("<p>this is web</p>")
+# list_of_phrases = ["this is a first line","\nthis is a second line","\nthis is a third line"]
+# names_file.writelines(list_of_phrases)
+# names_file.close()
+# =================================
+# import docx
+# import def_power
+#
+# print(def_power.power(2,-2))
+
+# =================================
+from Employee import Employee
+from Employee import Animals
+
+employee1 = Employee("ahmad","male",32,"damascus",4)
+employee2 = Employee("ahmad","male",32,"damascus",5)
+
+print(employee1.is_excellent(),employee2.is_excellent())
